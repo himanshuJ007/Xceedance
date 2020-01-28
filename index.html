@@ -36,7 +36,7 @@
                     <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Latest Fashion</a>
                     <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Trending</a>
                     <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Premium</a>
-                    <a class="list-group-item list-group-item-action" id="list-settings-list"  href="#mycart" >My Cart</a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list"  href="#mycart" onclick="display()" >My Cart</a>
                   
                   </div>
                 </div>
@@ -237,39 +237,12 @@
 
 
     <script>
-      var p1=document.getElementById("ta1");
-      var p2=document.getElementById("ta2");
-      var counter1=1;
-      var counter2=1;
+      
   function tshirt(){
-      
-      
-      if(counter1==5){
-          document.getElementById("div1").style.backgroundColor="green";
-          document.getElementById("div2").style.backgroundColor="red";
-          document.getElementById("demo1").innerHTML = counter1;
-      }else{
-          
-          document.getElementById("demo1").innerHTML = counter1;
-          counter1++;
-      }
-      
-      
 
   }
 
   function lower(){
-      
-      
-      if(counter2==5){
-          document.getElementById("div2").style.backgroundColor="green";
-          document.getElementById("div1").style.backgroundColor="red";
-          document.getElementById("demo2").innerHTML = counter2;
-
-     }else{
-          counter2++;
-          document.getElementById("demo2").innerHTML = counter2;
-      }
       
   }
 
